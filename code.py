@@ -14,6 +14,7 @@ def load_config(filename):
     # Load a configuration file into YAML
     stream = file.open(filename, "w")
     config = yaml.load(stream)
+    #bla
 
 
 def authenticate(password):
